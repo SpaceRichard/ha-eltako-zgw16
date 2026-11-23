@@ -1,0 +1,54 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Eltako ZGW16-IP gateway",
+        "description": "Connects to the gateway via its local REST API. All meters detected on the gateway are added automatically as devices.",
+        "data": {
+          "host": "IP address or hostname",
+          "password": "Password",
+          "scan_interval": "Polling interval (seconds)"
+        },
+        "data_description": {
+          "host": "Network address of the gateway, e.g. 192.168.1.50",
+          "password": "The access password set on the gateway"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Re-authenticate",
+        "description": "Login to the gateway {host} failed. Please enter the current password.",
+        "data": {
+          "password": "Password"
+        }
+      },
+      "reconfigure": {
+        "title": "Reconfigure gateway",
+        "description": "Change the address or password of the gateway. Leave the password empty to keep the current one.",
+        "data": {
+          "host": "IP address or hostname",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to the gateway. Check address and network.",
+      "invalid_auth": "Invalid password.",
+      "already_configured": "This gateway is already configured."
+    },
+    "abort": {
+      "already_configured": "This gateway is already configured.",
+      "reauth_successful": "Authentication updated successfully.",
+      "reconfigure_successful": "Gateway reconfigured successfully."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Eltako ZGW16-IP options",
+        "data": {
+          "scan_interval": "Polling interval (seconds)"
+        }
+      }
+    }
+  }
+}

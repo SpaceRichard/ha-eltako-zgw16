@@ -1,0 +1,54 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Eltako ZGW16-IP Gateway",
+        "description": "Verbindet das Gateway über die lokale REST-API. Alle am Gateway erkannten Zähler werden automatisch als Geräte angelegt.",
+        "data": {
+          "host": "IP-Adresse oder Hostname",
+          "password": "Passwort",
+          "scan_interval": "Abfrageintervall (Sekunden)"
+        },
+        "data_description": {
+          "host": "Adresse des Gateways im Netzwerk, z. B. 192.168.1.50",
+          "password": "Das im Gateway vergebene Zugangspasswort"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Erneut anmelden",
+        "description": "Die Anmeldung am Gateway {host} ist fehlgeschlagen. Bitte das aktuelle Passwort eingeben.",
+        "data": {
+          "password": "Passwort"
+        }
+      },
+      "reconfigure": {
+        "title": "Gateway neu konfigurieren",
+        "description": "Adresse oder Passwort des Gateways ändern. Das Passwortfeld leer lassen, um das bisherige beizubehalten.",
+        "data": {
+          "host": "IP-Adresse oder Hostname",
+          "password": "Passwort"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Keine Verbindung zum Gateway. Adresse und Netzwerk prüfen.",
+      "invalid_auth": "Passwort ungültig.",
+      "already_configured": "Dieses Gateway ist bereits eingerichtet."
+    },
+    "abort": {
+      "already_configured": "Dieses Gateway ist bereits eingerichtet.",
+      "reauth_successful": "Anmeldung erfolgreich aktualisiert.",
+      "reconfigure_successful": "Gateway erfolgreich neu konfiguriert."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Eltako ZGW16-IP Optionen",
+        "data": {
+          "scan_interval": "Abfrageintervall (Sekunden)"
+        }
+      }
+    }
+  }
+}

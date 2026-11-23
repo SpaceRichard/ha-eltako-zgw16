@@ -1,0 +1,12 @@
+{
+  "domain": "eltako_zgw16",
+  "name": "Eltako ZGW16-IP",
+  "codeowners": ["@DEIN-GITHUB-USER"],
+  "config_flow": true,
+  "documentation": "https://github.com/DEIN-GITHUB-USER/ha-eltako-zgw16",
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/DEIN-GITHUB-USER/ha-eltako-zgw16/issues",
+  "requirements": [],
+  "version": "0.3.0"
+}
