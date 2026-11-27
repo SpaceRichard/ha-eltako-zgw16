@@ -34,12 +34,26 @@ dazu.
 
 ### Installation
 
-#### Über HACS (empfohlen)
+#### Über den Marketplace / HACS (empfohlen)
 
-1. In Home Assistant **HACS** öffnen → oben rechts **⋮** → **Benutzerdefinierte Repositories**.
-2. Als Repository `https://github.com/SpaceRichard/ha-eltako-zgw16` eintragen, Kategorie **Integration**, auf *Hinzufügen* klicken.
-3. In HACS nach **Eltako ZGW16-IP** suchen, öffnen und **Installieren** wählen.
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=SpaceRichard&repository=ha-eltako-zgw16&category=integration)
+
+Oder manuell:
+
+1. In Home Assistant den **Marketplace** öffnen (je nach Version heißt der Eintrag **HACS**).
+2. Nach **Eltako ZGW16-IP** suchen und öffnen.
+3. **Herunterladen** wählen.
 4. **Home Assistant neu starten** (Einstellungen → System → Neustart).
+
+Die Integration ist in der Standardliste von HACS enthalten, ein eigenes Repository muss dafür nicht hinzugefügt werden.
+
+#### Optional: als benutzerdefiniertes Repository
+
+Nur nötig, wenn die Integration in der Suche noch nicht auftaucht oder du eine neuere Version direkt aus GitHub testen möchtest:
+
+1. **Marketplace / HACS** öffnen → oben rechts **⋮** → **Benutzerdefinierte Repositories**.
+2. `https://github.com/SpaceRichard/ha-eltako-zgw16` eintragen, Kategorie **Integration**, auf *Hinzufügen* klicken.
+3. Die Integration wie oben herunterladen und Home Assistant neu starten.
 
 #### Manuell
 
@@ -47,6 +61,10 @@ dazu.
 2. Home Assistant neu starten.
 
 ### Einrichtung
+
+[![Open your Home Assistant instance and start setting up a new integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=eltako_zgw16)
+
+Oder manuell:
 
 1. **Einstellungen → Geräte & Dienste → Integration hinzufügen** und nach **Eltako ZGW16-IP** suchen.
 2. Angaben eintragen:
@@ -117,12 +135,26 @@ parallel to it.
 
 ### Installation
 
-#### Via HACS (recommended)
+#### Via the Marketplace / HACS (recommended)
 
-1. In Home Assistant open **HACS** → top right **⋮** → **Custom repositories**.
-2. Enter `https://github.com/SpaceRichard/ha-eltako-zgw16` as the repository, category **Integration**, and click *Add*.
-3. Search for **Eltako ZGW16-IP** in HACS, open it and choose **Download**.
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=SpaceRichard&repository=ha-eltako-zgw16&category=integration)
+
+Or manually:
+
+1. In Home Assistant open the **Marketplace** (depending on your version the entry is called **HACS**).
+2. Search for **Eltako ZGW16-IP** and open it.
+3. Choose **Download**.
 4. **Restart Home Assistant** (Settings → System → Restart).
+
+The integration is part of the default HACS list, so you do not need to add a custom repository.
+
+#### Optional: as a custom repository
+
+Only needed if the integration does not show up in the search yet, or if you want to test a newer version straight from GitHub:
+
+1. Open the **Marketplace / HACS** → top right **⋮** → **Custom repositories**.
+2. Enter `https://github.com/SpaceRichard/ha-eltako-zgw16`, category **Integration**, and click *Add*.
+3. Download the integration as described above and restart Home Assistant.
 
 #### Manual
 
@@ -130,6 +162,10 @@ parallel to it.
 2. Restart Home Assistant.
 
 ### Setup
+
+[![Open your Home Assistant instance and start setting up a new integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=eltako_zgw16)
+
+Or manually:
 
 1. Go to **Settings → Devices & services → Add integration** and search for **Eltako ZGW16-IP**.
 2. Enter the details:
